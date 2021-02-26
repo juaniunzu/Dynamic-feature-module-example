@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Garden Planner</string>
+    <string name="title_notes">Notes</string>
+    <string name="title_info">Info</string>
+    <string name="title_activity_garden_item_info">GardenItemInfoActivity</string>
+    <string name="title_activity_notes">NotesActivity</string>
+    <string name="action_change">Change</string>
+    <string name="action_info">Info</string>
+    <string name="action_notes">Notes</string>
+    <string name="show_notes">Show notes</string>
+    <string name="installing_module_failed">Installing module failed</string>
+    <string name="installing_module_cancelled">Installing module cancelled</string>
+    <string name="installing_notes_module">Installing notes module …</string>
+    <string name="set_section">Set section</string>
+    <string name="garden_item_icon">Garden item icon</string>
+    <string name="module_icon">Module icon</string>
+    <string name="graden_section_icon">Graden section icon</string>
+    <string name="cabbage">Cabbage</string>
+    <string name="carrot">Carrot</string>
+    <string name="grass">Grass</string>
+    <string name="lettuce">Lettuce</string>
+    <string name="onion">Onion</string>
+    <string name="path">Path</string>
+    <string name="pepper">Pepper</string>
+    <string name="tulip">Tulip</string>
+    <string name="no_item_selected">No item selected</string>
+</resources>

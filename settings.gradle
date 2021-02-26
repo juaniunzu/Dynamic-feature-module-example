@@ -1,0 +1,4 @@
+include ':notes'
+include ':info'
+include ':app'
+rootProject.name='Garden Planner'

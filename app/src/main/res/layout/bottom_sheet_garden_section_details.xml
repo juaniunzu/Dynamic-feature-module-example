@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <ImageView
+    android:id="@+id/sectionIcon"
+    android:layout_width="@dimen/garden_section_info_icon_width"
+    android:layout_height="@dimen/garden_section_info_icon_height"
+    android:layout_marginTop="@dimen/vertical_margin"
+    android:layout_marginBottom="@dimen/vertical_margin"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintRight_toLeftOf="@+id/sectionTitle"
+    android:contentDescription="@string/garden_item_icon"
+    tools:src="@drawable/icon_cabbage"/>
+
+  <TextView
+    android:id="@+id/sectionTitle"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintBottom_toBottomOf="@+id/sectionIcon"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintLeft_toRightOf="@+id/sectionIcon"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/TextAppearance.AppCompat.Headline"
+    tools:text="Cabbage"/>
+
+ <Button
+   android:id="@+id/changeButton"
+   android:layout_width="0dp"
+   android:layout_height="wrap_content"
+   android:text="@string/action_change"
+   app:layout_constraintLeft_toLeftOf="parent"
+   app:layout_constraintTop_toBottomOf="@+id/sectionIcon"
+   app:layout_constraintRight_toLeftOf="@+id/infoButton"
+   style="@style/Widget.AppCompat.Button.Borderless"/>
+
+  <Button
+    android:id="@+id/infoButton"
+    android:text="@string/action_info"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    app:layout_constraintLeft_toRightOf="@+id/changeButton"
+    app:layout_constraintTop_toBottomOf="@+id/sectionIcon"
+    app:layout_constraintRight_toLeftOf="@+id/notesButton"
+    style="@style/Widget.AppCompat.Button.Borderless"
+    />
+
+
+  <ProgressBar
+    android:id="@+id/infoProgressBar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/vertical_margin"
+    android:layout_marginBottom="@dimen/vertical_margin"
+    app:layout_constraintLeft_toLeftOf="@+id/infoButton"
+    app:layout_constraintRight_toRightOf="@+id/infoButton"
+    app:layout_constraintTop_toTopOf="@+id/infoButton"
+    app:layout_constraintBottom_toBottomOf="@+id/infoButton"
+    android:visibility="gone" />
+
+  <Button
+    android:id="@+id/notesButton"
+    android:text="@string/action_notes"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    app:layout_constraintLeft_toRightOf="@+id/infoButton"
+    app:layout_constraintTop_toBottomOf="@+id/sectionIcon"
+    app:layout_constraintRight_toRightOf="parent"
+    style="@style/Widget.AppCompat.Button.Borderless"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="item_info">Item info</string>
+  <string name="cabbage_notes">Cabbage is a leafy green, red (purple), or white (pale green) biennial plant. It\'s healthy and you should eat it.</string>
+  <string name="carrot_notes">Carrots are usually orange and the word is they are good for your vision since they contain loads of vitamin A.</string>
+  <string name="grass_notes">Grass is always greener on the other side. So plant to make your neighbours envious.</string>
+  <string name="lettuce_notes">Lettuce is very good for salads. Also very healthy too.</string>
+  <string name="onions_notes">Onions can make you cry so handle with care. If your eyes are sensitive wear swim goggles while chopping.</string>
+  <string name="path_notes">A path for walking in your garden.</string>
+  <string name="peppers_notes">Peppers can come in all sorts of colors including red, yellow, orange and green. Beware of the hot ones.</string>
+  <string name="tulips_notes">Plant Tulips in your garden to add extra envy from your neighbours.</string>
+</resources>

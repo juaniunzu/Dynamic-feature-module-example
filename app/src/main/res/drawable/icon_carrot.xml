@@ -1,0 +1,60 @@
+<!--
+  ~ Copyright (c) 2019 Razeware LLC
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in
+  ~ all copies or substantial portions of the Software.
+  ~
+  ~ Notwithstanding the foregoing, you may not use, copy, modify, merge, publish,
+  ~ distribute, sublicense, create a derivative work, and/or sell copies of the
+  ~ Software in any work that is designed, intended, or marketed for pedagogical or
+  ~ instructional purposes related to programming, coding, application development,
+  ~ or information technology.  Permission for such use, copying, modification,
+  ~ merger, publication, distribution, sublicensing, creation of derivative works,
+  ~ or sale is expressly withheld.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+  ~ THE SOFTWARE.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+  <path
+      android:pathData="M30.5615,15.2834C31.3319,7.938 29.5043,2.6813 29.2102,2.6617C28.9162,2.642 30.2671,7.8668 29.4967,15.2123C28.7263,22.5578 28.3402,28.5284 28.6342,28.5481C28.8843,28.5648 29.5457,24.272 30.2119,18.4695C30.329,17.4491 30.4463,16.382 30.5615,15.2834Z"
+      android:strokeWidth="1"
+      android:fillColor="#1D9B2C"
+      android:fillType="evenOdd"
+      android:strokeColor="#00000000"/>
+  <path
+      android:pathData="M28.604,28.3977a13.3109,1 101,1 0,5.0797 -26.1327a13.3109,1 101,1 0,-5.0797 26.1327z"
+      android:strokeWidth="1"
+      android:fillColor="#1D9B2C"
+      android:fillType="evenOdd"
+      android:strokeColor="#00000000"/>
+  <path
+      android:pathData="M33.248,15.7972C35.4894,8.7697 36.7704,8.3027 36.494,8.1989C36.2176,8.0953 34.4883,8.3942 32.247,15.4217C30.0057,22.4492 28.4128,28.2302 28.6893,28.3339C28.9657,28.4376 31.0067,22.8247 33.248,15.7972Z"
+      android:strokeWidth="1"
+      android:fillColor="#1D9B2C"
+      android:fillType="evenOdd"
+      android:strokeColor="#00000000"/>
+  <path
+      android:pathData="M19.8689,60.3732C22.7803,54.806 28.4942,48.0121 30.9657,38.7885C33.4372,29.5648 31.2655,28.2276 28.6687,27.5318C26.0719,26.8359 23.1292,29.3975 21.1402,36.8208C19.1511,44.244 18.4926,51.2836 19.8689,60.3732ZM23.2694,34.2709L25.9517,34.9896M26.5656,32.6984L29.2479,33.4171M26.0083,37.4606L28.6905,38.1793M26.0083,37.4606L28.6905,38.1793"
+      android:strokeWidth="1"
+      android:fillColor="#ED9121"
+      android:strokeColor="#000000"
+      android:fillType="evenOdd"/>
+</vector>

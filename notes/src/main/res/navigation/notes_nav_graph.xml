@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/notesFragment">
+
+    <fragment
+        android:id="@+id/notesFragment"
+        android:name="com.raywenderlich.android.gardenplanner.notes.NotesFragment">
+
+        <argument
+            android:name="gardenSection"
+            app:argType="com.raywenderlich.android.gardenplanner.model.GardenSection"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_showNote"
+            app:destination="@+id/noteDetailsFragment" />
+
+        <action
+            android:id="@+id/action_addNote"
+            app:destination="@+id/addNoteFragment" />
+
+    </fragment>
+
+    <dialog
+        android:id="@+id/addNoteFragment"
+        android:name="com.raywenderlich.android.gardenplanner.notes.AddNoteDialogFragment">
+
+        <argument
+            android:name="gardenSection"
+            app:argType="com.raywenderlich.android.gardenplanner.model.GardenSection"
+            app:nullable="true" />
+
+    </dialog>
+
+    <fragment
+        android:id="@+id/noteDetailsFragment"
+        android:name="com.raywenderlich.android.gardenplanner.notes.NoteDetailsFragment">
+
+        <argument
+            android:name="note"
+            app:argType="com.raywenderlich.android.gardenplanner.notes.model.Note" />
+    </fragment>
+
+</navigation>

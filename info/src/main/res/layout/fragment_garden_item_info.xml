@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.raywenderlich.android.gardenplanner.MainActivity">
+
+    <ImageView
+      android:id="@+id/itemIcon"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/vertical_margin"
+      android:contentDescription="@string/garden_item_icon"
+      tools:src="@drawable/icon_cabbage" />
+
+    <TextView
+      android:id="@+id/itemName"
+      style="@style/TextAppearance.AppCompat.Headline"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/vertical_margin"
+      android:layout_marginBottom="@dimen/vertical_margin"
+      tools:text="TItle" />
+
+
+    <TextView
+      android:id="@+id/itemDetails"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/vertical_margin"
+      android:layout_marginBottom="@dimen/vertical_margin"
+      android:layout_marginLeft="@dimen/horizontal_margin"
+      android:layout_marginRight="@dimen/horizontal_margin"
+      tools:text="Lorem ipsum" />
+
+  </LinearLayout>
+
+</ScrollView>

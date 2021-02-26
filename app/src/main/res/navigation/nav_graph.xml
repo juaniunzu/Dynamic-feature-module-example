@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:progressDestination="@+id/notesProgressFragment"
+    app:startDestination="@id/gardenPlanFragment">
+
+    <fragment
+        android:id="@+id/gardenPlanFragment"
+        android:name="com.raywenderlich.android.gardenplanner.GardenPlanFragment"
+        android:label="GardenPlanFragment">
+        <action
+            android:id="@+id/action_setSection"
+            app:destination="@+id/gardenItemListFragment" />
+
+        <action
+            android:id="@+id/action_addNote"
+            app:destination="@+id/notes_nav_graph">
+
+            <argument
+                android:name="gardenSection"
+                app:argType="com.raywenderlich.android.gardenplanner.model.GardenSection"
+                app:nullable="true" />
+
+        </action>
+
+        <action
+            android:id="@+id/action_sectionDetails"
+            app:destination="@+id/gardenSectionDetailsDialogFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/gardenItemListFragment"
+        android:name="com.raywenderlich.android.gardenplanner.GardenItemListFragment"
+        android:label="GardenItemListFragment">
+
+        <argument
+            android:name="gardenSection"
+            app:argType="com.raywenderlich.android.gardenplanner.model.GardenSection" />
+
+    </fragment>
+
+    <include-dynamic
+        android:id="@+id/notes_nav_graph"
+        app:graphPackage="com.raywenderlich.android.gardenplanner.notes"
+        app:graphResName="notes_nav_graph"
+        app:moduleName="notes">
+
+        <argument
+            android:name="gardenSection"
+            app:argType="com.raywenderlich.android.gardenplanner.model.GardenSection"
+            app:nullable="true" />
+
+    </include-dynamic>
+
+    <fragment
+        android:id="@+id/notesProgressFragment"
+        android:name="com.raywenderlich.android.gardenplanner.GardenPlannerProgressFragment" />
+
+    <fragment
+        android:id="@+id/gardenItemInfoFragment"
+        android:name="com.raywenderlich.android.gardenplanner.info.GardenItemInfoFragment"
+        app:moduleName="info">
+
+        <argument
+            android:name="gardenSection"
+            app:argType="com.raywenderlich.android.gardenplanner.model.GardenSection" />
+
+    </fragment>
+
+    <dialog
+        android:id="@+id/gardenSectionDetailsDialogFragment"
+        android:name="com.raywenderlich.android.gardenplanner.GardenSectionDetailsDialogFragment"
+        android:label="GardenSectionDetailsDialogFragment">
+
+        <argument
+            android:name="gardenSection"
+            app:argType="com.raywenderlich.android.gardenplanner.model.GardenSection" />
+
+        <action
+            android:id="@+id/action_changeSection"
+            app:destination="@+id/gardenItemListFragment" />
+        <action
+            android:id="@+id/action_addSectionNote"
+            app:destination="@+id/notes_nav_graph">
+
+            <argument
+                android:name="gardenSection"
+                app:argType="com.raywenderlich.android.gardenplanner.model.GardenSection"
+                app:nullable="true" />
+
+        </action>
+        <action
+            android:id="@+id/action_showItemInfo"
+            app:destination="@+id/gardenItemInfoFragment" />
+    </dialog>
+
+</navigation>

@@ -1,0 +1,84 @@
+<!--
+  ~ Copyright (c) 2019 Razeware LLC
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in
+  ~ all copies or substantial portions of the Software.
+  ~
+  ~ Notwithstanding the foregoing, you may not use, copy, modify, merge, publish,
+  ~ distribute, sublicense, create a derivative work, and/or sell copies of the
+  ~ Software in any work that is designed, intended, or marketed for pedagogical or
+  ~ instructional purposes related to programming, coding, application development,
+  ~ or information technology.  Permission for such use, copying, modification,
+  ~ merger, publication, distribution, sublicensing, creation of derivative works,
+  ~ or sale is expressly withheld.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+  ~ THE SOFTWARE.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+  <path
+      android:pathData="M21.9436,31.3646C19.9722,19.3227 14.5473,11.7374 14.0424,11.8336C13.5375,11.9299 18.1438,19.6713 20.1151,31.7132C22.0865,43.7551 24.0938,53.4389 24.5987,53.3426C25.0281,53.2607 24.2326,46.1317 22.7725,36.5944C22.5157,34.9172 22.2384,33.1655 21.9436,31.3646Z"
+      android:strokeWidth="1"
+      android:fillColor="#1D9B2C"
+      android:fillType="evenOdd"
+      android:strokeColor="#00000000"/>
+  <path
+      android:pathData="M24.4809,53.1161a21.9814,1 86,1 0,-3.0667 -43.8557a21.9814,1 86,1 0,3.0667 43.8557z"
+      android:strokeWidth="1"
+      android:fillColor="#1D9B2C"
+      android:fillType="evenOdd"
+      android:strokeColor="#00000000"/>
+  <path
+      android:pathData="M26.7056,31.0178C27.3579,18.8446 29.3115,17.5444 28.7989,17.499C28.2863,17.4538 25.5016,18.6805 24.8492,30.8537C24.1969,43.0269 24.0837,52.932 24.5963,52.9773C25.1089,53.0226 26.0533,43.191 26.7056,31.0178Z"
+      android:strokeWidth="1"
+      android:fillColor="#1D9B2C"
+      android:fillType="evenOdd"
+      android:strokeColor="#00000000"/>
+  <path
+      android:pathData="M26.8623,54.5561C20.0298,60.5104 26.3364,50.854 19.8682,56.8235L26.8623,54.5561Z"
+      android:strokeWidth="1"
+      android:fillColor="#00000000"
+      android:strokeColor="#000000"
+      android:fillType="evenOdd"/>
+  <path
+      android:pathData="M41.9436,31.3646C39.9722,19.3227 34.5473,11.7374 34.0424,11.8336C33.5375,11.9299 38.1438,19.6713 40.1151,31.7132C42.0865,43.7551 44.0938,53.4389 44.5987,53.3426C45.0281,53.2607 44.2326,46.1317 42.7725,36.5944C42.5157,34.9172 42.2384,33.1655 41.9436,31.3646Z"
+      android:strokeWidth="1"
+      android:fillColor="#1D9B2C"
+      android:fillType="evenOdd"
+      android:strokeColor="#00000000"/>
+  <path
+      android:pathData="M44.4809,53.1161a21.9814,1 86,1 0,-3.0667 -43.8557a21.9814,1 86,1 0,3.0667 43.8557z"
+      android:strokeWidth="1"
+      android:fillColor="#1D9B2C"
+      android:fillType="evenOdd"
+      android:strokeColor="#00000000"/>
+  <path
+      android:pathData="M46.7056,31.0178C47.3579,18.8446 49.3115,17.5444 48.7989,17.499C48.2863,17.4538 45.5015,18.6805 44.8492,30.8537C44.1969,43.0269 44.0837,52.932 44.5963,52.9773C45.1089,53.0226 46.0533,43.191 46.7056,31.0178Z"
+      android:strokeWidth="1"
+      android:fillColor="#1D9B2C"
+      android:fillType="evenOdd"
+      android:strokeColor="#00000000"/>
+  <path
+      android:pathData="M46.8623,54.5561C40.0298,60.5104 46.3364,50.854 39.8682,56.8235L46.8623,54.5561Z"
+      android:strokeWidth="1"
+      android:fillColor="#00000000"
+      android:strokeColor="#000000"
+      android:fillType="evenOdd"/>
+</vector>

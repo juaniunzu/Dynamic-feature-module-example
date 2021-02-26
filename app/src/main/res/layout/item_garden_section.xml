@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/sectionImageView"
+  android:layout_width="@dimen/garden_section_width"
+  android:layout_height="@dimen/garden_section_height"
+  android:contentDescription="@string/graden_section_icon"
+  android:orientation="vertical">
+
+</ImageView>
